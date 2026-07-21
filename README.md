@@ -73,11 +73,13 @@ Run the notebooks in numeric order:
    hybrid pipeline, PMEAPI, PatchCleanser.
 2. **`02_adaptive_attack.ipynb`** — trains a defense-aware adaptive patch against the hybrid
    pipeline and reports the oblivious-vs-adaptive degradation with bootstrap CIs (Sec. IV-G).
-3. **`03_pmeapi.ipynb`** — fits per-sensor Beta likelihoods (ORB, feature-squeeze, GradCAM
+3. **`03_sweep_patchcleanser.ipynb`** — sweeps patch size (44–110px) against the hybrid pipeline
+   and runs the PatchCleanser certified-defense baseline for comparison.**`03_pmeapi.ipynb`** — fits per-sensor Beta likelihoods (ORB, feature-squeeze, GradCAM
    concentration) on held-out calibration data and tunes the fused decision threshold for a
    target FPR.
-4. **`04_sweep_patchcleanser.ipynb`** — sweeps patch size (44–110px) against the hybrid pipeline
-   and runs the PatchCleanser certified-defense baseline for comparison.
+4. **`04_pmeapi.ipynb`** — fits per-sensor Beta likelihoods (ORB, feature-squeeze, GradCAM
+   concentration) on held-out calibration data and tunes the fused decision threshold for a
+   target FPR.
 5. **`05_final_figures.ipynb`** — regenerates every camera-ready figure from the `results/*.pt`
    files saved by the notebooks above (no retraining or re-evaluation required).
 
