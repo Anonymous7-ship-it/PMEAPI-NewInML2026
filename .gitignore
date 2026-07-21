@@ -1,0 +1,23 @@
+# Dataset (downloaded automatically by src/data_loader.py)
+data/
+
+# All generated artifacts (checkpoints, patches, figures) -- regenerate via the notebooks.
+# Keeping these out of the anonymous repo avoids shipping large binaries and any
+# incidentally-embedded local metadata (e.g. absolute paths in pickled checkpoints).
+results/*
+!results/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+.venv/
+*.egg-info/
+
+# OS / editor cruft that can carry local usernames/paths
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
