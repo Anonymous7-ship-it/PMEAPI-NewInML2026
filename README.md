@@ -20,8 +20,8 @@ feature-squeezing-only, GradCAM-only, and PatchCleanser baselines on ImageNette.
 ├── notebooks/                     # Numbered so review follows the pipeline in order
 │   ├── 01_main_pipeline.ipynb     # Patch training, Stage 1-3 hybrid defense, full 7-method evaluation (Table II)
 │   ├── 02_adaptive_attack.ipynb   # Defense-aware adaptive patch, oblivious vs. adaptive comparison (Sec. IV-G)
-│   ├── 03_pmeapi.ipynb            # Probabilistic (Beta-calibrated) fusion defense: calibration, threshold tuning
-│   ├── 04_sweep_patchcleanser.ipynb  # Patch-size sweep + PatchCleanser (Xiang et al., USENIX Sec'22) baseline
+│   ├── 03_sweep_patchcleanser.ipynb  # Patch-size sweep + PatchCleanser (Xiang et al., USENIX Sec'22) baseline
+│   ├── 04_pmeapi.ipynb            # Probabilistic (Beta-calibrated) fusion defense: calibration, threshold tuning
 │   └── 05_final_figures.ipynb     # Regenerates every camera-ready figure from saved results only
 ├── src/
 │   ├── config.py                  # All hyperparameters, paths, dataset constants
