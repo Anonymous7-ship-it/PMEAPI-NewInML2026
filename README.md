@@ -1,7 +1,7 @@
 # PMEAPI: Probabilistic Multi-Evidence Adversarial Patch Inference
 
 Code and experiments for the submission *"PMEAPI: Probabilistic Multi-Evidence Adversarial Patch
-Inference"* (submitted to AISec 2026, anonymous review).
+Inference"* .
 
 This repository contains the full pipeline used to produce every table and figure in the paper:
 a three-stage hybrid defense against adversarial patch attacks (classical keypoint detection →
